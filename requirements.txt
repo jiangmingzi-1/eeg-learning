@@ -1,0 +1,15 @@
+# 依赖清单
+# 用法（在 eeg 环境里）：
+#   pip install -r requirements.txt
+#
+# 注意：本环境必须用 Python 3.11。
+# conda base 是 Python 3.14，mne/scipy 在上面装不上。
+
+numpy>=1.26
+matplotlib>=3.8
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+mne>=1.6
+jupyter>=1.0
+ipykernel>=6.29
